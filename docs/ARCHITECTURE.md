@@ -4,7 +4,7 @@
 
 Kleenova needs a simple, high-quality marketing website that is easy to host on GitHub, fast on mobile networks, safe to maintain, and capable of growing into richer booking and content workflows.
 
-The design benchmark uses the patterns that work well for service businesses: a clear value proposition, prominent booking/quote calls to action, service discovery, trust signals, a simple process explanation, FAQ content and multiple contact paths. The Kleenova implementation adopts those structural patterns without copying benchmark branding or unsupported claims.
+The design benchmark uses the patterns that work well for service businesses: a clear value proposition, prominent quote calls to action, service discovery, trust signals, a simple process explanation, FAQ content and multiple contact paths. Kleenova’s messaging deliberately favors concrete client expectations over generic claims: scope agreed before the visit, practical scheduling, priorities captured, transparent follow-up and qualified wording where the business has not published a stronger guarantee. The implementation adopts those structural patterns without copying benchmark branding or unsupported claims.
 
 ## 2. Decision
 
