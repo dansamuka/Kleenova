@@ -24,6 +24,33 @@
     });
   }
 
+  const ctaBar = document.querySelector("[data-mobile-cta]");
+  const hero = document.getElementById("top");
+  const quoteSection = document.getElementById("quote");
+  const footer = document.querySelector(".site-footer");
+
+  if (ctaBar && hero && quoteSection && footer && "IntersectionObserver" in window) {
+    const state = { hero: true, quote: false, footer: false };
+
+    const updateBar = () => {
+      const shouldShow = !state.hero && !state.quote && !state.footer;
+      ctaBar.classList.toggle("is-visible", shouldShow);
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.target === hero) state.hero = entry.isIntersecting;
+        if (entry.target === quoteSection) state.quote = entry.isIntersecting;
+        if (entry.target === footer) state.footer = entry.isIntersecting;
+      });
+      updateBar();
+    }, { threshold: 0 });
+
+    observer.observe(hero);
+    observer.observe(quoteSection);
+    observer.observe(footer);
+  }
+
   document.querySelectorAll("[data-year]").forEach((el) => {
     el.textContent = String(new Date().getFullYear());
   });
