@@ -1037,10 +1037,6 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  .service-card {
-    min-height: 300px;
-  }
-
   .process-grid {
     gap: 0.8rem;
   }
@@ -1077,14 +1073,6 @@ textarea {
   .hero-actions .button,
   .final-actions .button {
     width: 100%;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-grid > div:last-child {
-    grid-column: auto;
   }
 }
 
@@ -1128,4 +1116,28 @@ textarea {
 }
 .legal-page p {
   color: var(--ink-soft);
+}
+
+.mobile-cta-bar {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .mobile-cta-bar.is-visible {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 90;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(12px);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -8px 24px rgba(0, 40, 42, 0.14);
+  }
+
+  .mobile-cta-bar .button {
+    width: 100%;
+  }
 }
