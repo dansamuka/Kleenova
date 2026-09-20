@@ -37,6 +37,7 @@ The quote form does not post to a backend. It creates a WhatsApp message client-
 
 - No secrets in source or browser code.
 - No inline third-party scripts.
+- The only third-party presentation dependency is a pinned static Inter font asset; CSP limits font loading to jsDelivr and local files.
 - No analytics or advertising trackers at launch.
 - Content Security Policy is supplied through a `<meta http-equiv>` directive because GitHub Pages does not provide repository-level response-header configuration.
 - `target="_blank"` external links use `rel="noopener noreferrer"`.
@@ -59,9 +60,9 @@ Those controls cannot all be reliably expressed by a static HTML page alone.
 
 ## 4. Performance model
 
-- One optimized WebP hero image.
-- Local assets only on the critical path.
-- System font stack; no render-blocking font request.
+- One optimized SVG hero illustration.
+- Local brand/media assets on the critical visual path.
+- Inter Variable loads from a pinned Fontsource/jsDelivr WOFF2 asset with `font-display: swap` and a system-font fallback.
 - No JavaScript framework.
 - Hero image is explicitly prioritized; decorative and future below-fold media should be lazy-loaded.
 - CSS is shared and cacheable.

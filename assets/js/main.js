@@ -3,14 +3,16 @@
   const nav = document.querySelector("[data-nav]");
 
   if (menuToggle && nav) {
-    const closeMenu = () => {
-      nav.classList.remove("is-open");
-      menuToggle.setAttribute("aria-expanded", "false");
+    const menuLabel = menuToggle.querySelector(".sr-only");
+    const setMenuState = (open) => {
+      nav.classList.toggle("is-open", open);
+      menuToggle.setAttribute("aria-expanded", String(open));
+      if (menuLabel) menuLabel.textContent = open ? "Close navigation" : "Open navigation";
     };
+    const closeMenu = () => setMenuState(false);
 
     menuToggle.addEventListener("click", () => {
-      const open = nav.classList.toggle("is-open");
-      menuToggle.setAttribute("aria-expanded", String(open));
+      setMenuState(!nav.classList.contains("is-open"));
     });
 
     nav.querySelectorAll("a").forEach((link) => {

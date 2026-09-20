@@ -7,7 +7,7 @@
   <meta name="description" content="Professional residential, office, healthcare and commercial cleaning across Nairobi and surrounding areas. Reliable service, flexible scheduling and attention to detail.">
   <meta name="theme-color" content="#005d62">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self' https://cdn.jsdelivr.net; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
   <link rel="canonical" href="https://dansamuka.github.io/Kleenova/">
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="site.webmanifest">
@@ -83,7 +83,7 @@
         <a href="#process">How it works</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
-        <a class="button button-small" href="#quote">Get a quote</a>
+        <a class="button button-small" href="#quote">Get a free quote</a>
       </nav>
     </div>
   </header>
@@ -100,7 +100,7 @@
         <p class="hero-copy">Reliable cleaning for homes, offices, healthcare and commercial spaces across Nairobi and surrounding areas — delivered with care, flexibility and attention to detail.</p>
         <div class="hero-actions">
           <a class="button" href="#quote">Get a free quote</a>
-          <a class="button button-secondary" href="https://wa.me/254717826866?text=Hello%20Kleenova%2C%20I%27d%20like%20a%20cleaning%20quote." target="_blank" rel="noopener noreferrer">WhatsApp us</a>
+          <a class="button button-secondary" href="https://wa.me/254717826866?text=Hello%20Kleenova%2C%20I%27d%20like%20a%20cleaning%20quote." target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
         </div>
         <div class="hero-trust" aria-label="Kleenova service qualities">
           <span>
@@ -149,7 +149,7 @@
             </div>
             <h3>Residential cleaning</h3>
             <p>Thoughtful home cleaning for apartments and houses, shaped around your priorities and preferred schedule.</p>
-            <a href="#quote" data-service-link="Residential cleaning">Request residential cleaning <span aria-hidden="true">→</span></a>
+            <a href="#quote" data-service-link="Residential cleaning">Get a free quote <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card">
@@ -158,7 +158,7 @@
             </div>
             <h3>Office cleaning</h3>
             <p>A clean, presentable workplace with flexible scheduling designed to minimise disruption to your team and clients.</p>
-            <a href="#quote" data-service-link="Office cleaning">Request office cleaning <span aria-hidden="true">→</span></a>
+            <a href="#quote" data-service-link="Office cleaning">Get a free quote <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card">
@@ -167,7 +167,7 @@
             </div>
             <h3>Healthcare cleaning</h3>
             <p>Careful cleaning for healthcare environments, with scope and site requirements confirmed before each engagement.</p>
-            <a href="#quote" data-service-link="Healthcare cleaning">Request healthcare cleaning <span aria-hidden="true">→</span></a>
+            <a href="#quote" data-service-link="Healthcare cleaning">Get a free quote <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card">
@@ -176,7 +176,7 @@
             </div>
             <h3>Commercial cleaning</h3>
             <p>Practical cleaning plans for customer-facing and operational spaces, from one-off jobs to recurring support.</p>
-            <a href="#quote" data-service-link="Commercial cleaning">Request commercial cleaning <span aria-hidden="true">→</span></a>
+            <a href="#quote" data-service-link="Commercial cleaning">Get a free quote <span aria-hidden="true">→</span></a>
           </article>
         </div>
       </div>
@@ -188,7 +188,7 @@
           <p class="eyebrow">Why choose Kleenova</p>
           <h2>A simpler standard of clean.</h2>
           <p>Good cleaning should feel dependable before, during and after the visit. Our service principles are built around the details that create that confidence.</p>
-          <a class="text-link" href="#quote">Plan your clean <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#quote">Get a free quote <span aria-hidden="true">→</span></a>
         </div>
         <div class="feature-grid">
           <article>
@@ -273,53 +273,33 @@
         </div>
 
         <form class="quote-form" id="quote-form" data-quote-form>
-          <div class="form-grid">
-            <label>
-              <span>Your name</span>
-              <input type="text" name="name" autocomplete="name" maxlength="80" required>
-            </label>
-            <label>
-              <span>Phone number</span>
-              <input type="tel" name="phone" autocomplete="tel" maxlength="30" required>
-            </label>
-            <label>
-              <span>Cleaning service</span>
-              <select name="service" required data-service-select>
-                <option value="">Choose a service</option>
-                <option>Residential cleaning</option>
-                <option>Office cleaning</option>
-                <option>Healthcare cleaning</option>
-                <option>Commercial cleaning</option>
-                <option>Not sure / other</option>
-              </select>
-            </label>
-            <label>
-              <span>Area / neighbourhood</span>
-              <input type="text" name="location" autocomplete="address-level2" maxlength="100" placeholder="e.g. Kilimani" required>
-            </label>
-            <label>
-              <span>Preferred date</span>
-              <input type="date" name="date">
-            </label>
-            <label>
-              <span>Preferred timing</span>
-              <select name="timing">
-                <option value="">Flexible</option>
-                <option>Morning</option>
-                <option>Afternoon</option>
-                <option>Evening / after hours</option>
-              </select>
-            </label>
-          </div>
-          <label>
-            <span>What would you like us to know?</span>
-            <textarea name="notes" rows="5" maxlength="800" placeholder="Size of the space, frequency, priority areas, access notes or anything else that helps us quote accurately."></textarea>
-          </label>
-          <label class="consent">
-            <input type="checkbox" name="consent" required>
-            <span>I’m happy for this information to be placed into a WhatsApp message to Kleenova when I press the button below.</span>
-          </label>
-          <button class="button button-gold" type="submit">Send quote request on WhatsApp</button>
+          <fieldset class="form-group">
+            <legend>Your details</legend>
+            <p class="form-group-help">Who should we contact about the quote?</p>
+            <div class="form-grid">
+              <label><span>Your name</span><input type="text" name="name" autocomplete="name" maxlength="80" required></label>
+              <label><span>Phone number</span><input type="tel" name="phone" autocomplete="tel" maxlength="30" required></label>
+            </div>
+          </fieldset>
+          <fieldset class="form-group">
+            <legend>The job</legend>
+            <p class="form-group-help">Tell us what and where you need cleaned.</p>
+            <div class="form-grid">
+              <label><span>Cleaning service</span><select name="service" required data-service-select><option value="">Choose a service</option><option>Residential cleaning</option><option>Office cleaning</option><option>Healthcare cleaning</option><option>Commercial cleaning</option><option>Not sure / other</option></select></label>
+              <label><span>Area / neighbourhood</span><input type="text" name="location" autocomplete="address-level2" maxlength="100" placeholder="e.g. Kilimani" required></label>
+            </div>
+            <label><span>What would you like us to know?</span><textarea name="notes" rows="5" maxlength="800" placeholder="Size of the space, frequency, priority areas, access notes or anything else that helps us quote accurately."></textarea></label>
+          </fieldset>
+          <fieldset class="form-group">
+            <legend>Timing</legend>
+            <p class="form-group-help">Share a preference, or leave it flexible.</p>
+            <div class="form-grid">
+              <label><span>Preferred date</span><input type="date" name="date"></label>
+              <label><span>Preferred timing</span><select name="timing"><option value="">Flexible</option><option>Morning</option><option>Afternoon</option><option>Evening / after hours</option></select></label>
+            </div>
+          </fieldset>
+          <label class="consent"><input type="checkbox" name="consent" required><span>I’m happy for this information to be placed into a WhatsApp message to Kleenova when I press the button below.</span></label>
+          <button class="button button-gold" type="submit">Message on WhatsApp</button>
           <p class="form-note">You’ll review the message in WhatsApp before sending it. Nothing is submitted to Kleenova automatically.</p>
         </form>
       </div>
@@ -365,7 +345,7 @@
           <p>Contact Kleenova Cleaning Services in Nairobi and surrounding areas.</p>
         </div>
         <div class="final-actions">
-          <a class="button button-gold" href="#quote">Get a quote</a>
+          <a class="button button-gold" href="#quote">Get a free quote</a>
           <a class="button button-outline-light" href="https://wa.me/254717826866?text=Hello%20Kleenova%2C%20I%27d%20like%20to%20ask%20about%20cleaning%20services." target="_blank" rel="noopener noreferrer">Message on WhatsApp</a>
         </div>
       </div>

@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Inter Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@5.3.0/latin-wght-normal.woff2") format("woff2-variations");
+}
+
 :root {
   --ink: #0b2628;
   --ink-soft: #355153;
@@ -8,7 +16,7 @@
   --teal-100: #dff3ef;
   --teal-050: #f1faf8;
   --gold: #d6ad3f;
-  --gold-dark: #b88e26;
+  --gold-dark: #8a6a1a;
   --cream: #fbfaf5;
   --white: #ffffff;
   --line: #dbe6e4;
@@ -34,7 +42,7 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--white);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Inter Variable", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -281,7 +289,7 @@ textarea {
 
 .hero-wash {
   background:
-    linear-gradient(90deg, rgba(0, 55, 59, 0.98) 0%, rgba(0, 55, 59, 0.92) 34%, rgba(0, 55, 59, 0.58) 57%, rgba(0, 55, 59, 0.06) 82%),
+    linear-gradient(90deg, rgba(0, 55, 59, 0.86) 0%, rgba(0, 55, 59, 0.76) 32%, rgba(0, 55, 59, 0.42) 55%, rgba(0, 55, 59, 0.08) 72%),
     linear-gradient(0deg, rgba(0, 45, 49, 0.35), rgba(0, 45, 49, 0.06));
 }
 
@@ -671,11 +679,16 @@ textarea {
   box-shadow: 0 28px 70px rgba(0, 34, 36, 0.28);
 }
 
+.form-group{min-width:0;margin:0;padding:0;border:0}
+.form-group + .form-group{margin-top:1.35rem;padding-top:1.35rem;border-top:1px solid var(--line)}
+.form-group legend{padding:0;color:var(--teal-950);font-size:1rem;font-weight:900;letter-spacing:-.01em}
+.form-group-help{margin:.25rem 0 1rem;color:#5a6d6f;font-size:.8rem}
 .form-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
+.form-group .form-grid > label{margin-bottom:1rem}
 
 .quote-form label {
   display: grid;
@@ -714,7 +727,7 @@ textarea {
 
 .form-note {
   margin: 0.8rem 0 0;
-  color: #6a7d7f;
+  color: #5a6d6f;
   font-size: 0.78rem;
   text-align: center;
 }
@@ -769,10 +782,11 @@ textarea {
   color: var(--teal-800);
   font-size: 1.35rem;
   line-height: 1;
+  transition: transform 150ms ease, background-color 150ms ease;
 }
-
 .faq-list details[open] summary::after {
   content: "–";
+  transform: rotate(180deg);
 }
 
 .faq-list details p {
@@ -782,7 +796,8 @@ textarea {
 
 .final-cta {
   padding: 78px 0;
-  background: var(--teal-950);
+  border-top: 4px solid var(--gold);
+  background: linear-gradient(135deg, var(--teal-800), var(--teal-950));
   color: var(--white);
 }
 
@@ -884,7 +899,7 @@ textarea {
   margin-top: 3.2rem;
   padding-top: 1.4rem;
   border-top: 1px solid rgba(255,255,255,0.12);
-  color: rgba(255,255,255,0.48);
+  color: rgba(255,255,255,0.65);
   font-size: 0.8rem;
 }
 
@@ -974,7 +989,7 @@ textarea {
 
   .hero-wash {
     background:
-      linear-gradient(90deg, rgba(0, 55, 59, 0.98) 0%, rgba(0, 55, 59, 0.88) 64%, rgba(0, 55, 59, 0.50) 100%),
+      linear-gradient(90deg, rgba(0, 55, 59, 0.90) 0%, rgba(0, 55, 59, 0.78) 48%, rgba(0, 55, 59, 0.48) 72%, rgba(0, 55, 59, 0.22) 100%),
       linear-gradient(0deg, rgba(0, 45, 49, 0.40), rgba(0, 45, 49, 0.10));
   }
 

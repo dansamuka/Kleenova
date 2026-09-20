@@ -2,8 +2,8 @@
 
 | Asset | Origin | Production treatment | Use |
 |---|---|---|---|
-| `assets/images/kleenova-logo.svg` | Cropped from the Kleenova artwork supplied by the business | Resized and WebP optimized | Header brand |
-| `assets/images/hero-cleaning.svg` | Bespoke AI-generated visual created for this project | Resized to 1600px wide and WebP optimized | Hero background |
+| `assets/images/kleenova-logo.svg` | Cropped from the Kleenova artwork supplied by the business | Cleaned and shipped as scalable SVG | Header brand |
+| `assets/images/hero-cleaning.svg` | Bespoke AI-generated visual created for this project | Art-directed and shipped as scalable SVG | Hero background |
 | `assets/icons/favicon.svg` | Purpose-built vector mark for this project | SVG | Browser/site icon |
 
 ## AI hero art direction
