@@ -3,7 +3,7 @@
   font-style: normal;
   font-display: swap;
   font-weight: 100 900;
-  src: url("https://cdn.jsdelivr.net/fontsource/fonts/inter:vf@5.3.0/latin-wght-normal.woff2") format("woff2-variations");
+  src: url("../fonts/inter-latin-var.woff2") format("woff2-variations");
 }
 
 :root {

@@ -5,6 +5,7 @@
 | `assets/images/kleenova-logo.svg` | Cropped from the Kleenova artwork supplied by the business | Cleaned and shipped as scalable SVG | Header brand |
 | `assets/images/hero-cleaning.svg` | Bespoke AI-generated visual created for this project | Art-directed and shipped as scalable SVG | Hero background |
 | `assets/icons/favicon.svg` | Purpose-built vector mark for this project | SVG | Browser/site icon |
+| `assets/fonts/inter-latin-var.woff2` | Inter variable font, Fontsource distribution | Self-hosted WOFF2 with `font-display: swap` | Primary site typography |
 
 ## AI hero art direction
 
