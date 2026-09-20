@@ -58,7 +58,7 @@
         `Notes: ${clean("notes") || "None provided"}`
       ];
 
-      const url = `https://wa.me/254715594510?text=${encodeURIComponent(lines.join("\n"))}`;
+      const url = `https://wa.me/254717826866?text=${encodeURIComponent(lines.join("\n"))}`;
       const newWindow = window.open(url, "_blank", "noopener,noreferrer");
       if (!newWindow) window.location.href = url;
     });
