@@ -28,7 +28,7 @@
     "url": "https://dansamuka.github.io/Kleenova/",
     "logo": "https://dansamuka.github.io/Kleenova/assets/images/kleenova-logo.svg",
     "email": "kleenova.cleaning@gmail.com",
-    "telephone": "+254715594510",
+    "telephone": "+254717826866",
     "slogan": "Clean Spaces. Healthier Lives.",
     "areaServed": [
       {"@type": "City", "name": "Nairobi"},
@@ -42,13 +42,13 @@
     "contactPoint": [
       {
         "@type": "ContactPoint",
-        "telephone": "+254715594510",
+        "telephone": "+254717826866",
         "contactType": "customer service",
         "areaServed": "KE"
       },
       {
         "@type": "ContactPoint",
-        "telephone": "+254717826866",
+        "telephone": "+254715594510",
         "contactType": "customer service",
         "areaServed": "KE"
       }
@@ -138,7 +138,7 @@
         <div class="section-heading split-heading">
           <div>
             <p class="eyebrow">Our services</p>
-            <h2>One reliable team for the spaces that matter.</h2>
+            <h2>Cleaning for the spaces that matter.</h2>
           </div>
           <p>From routine upkeep to tailored cleaning plans, Kleenova focuses on a professional finish without making the process complicated.</p>
         </div>
@@ -150,7 +150,7 @@
             </div>
             <h3>Residential cleaning</h3>
             <p>Thoughtful home cleaning for apartments and houses, shaped around your priorities and preferred schedule.</p>
-            <a href="#quote" data-service-link="Residential cleaning">Request residential cleaning <span aria-hidden="true">→</span></a>
+            <a href="#quote" data-service-link="Residential cleaning">Get a quote <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card">
@@ -159,7 +159,7 @@
             </div>
             <h3>Office cleaning</h3>
             <p>A clean, presentable workplace with flexible scheduling designed to minimise disruption to your team and clients.</p>
-            <a href="#quote" data-service-link="Office cleaning">Request office cleaning <span aria-hidden="true">→</span></a>
+            <a href="#quote" data-service-link="Office cleaning">Get a quote <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card">
@@ -168,7 +168,7 @@
             </div>
             <h3>Healthcare cleaning</h3>
             <p>Careful cleaning for healthcare environments, with scope and site requirements confirmed before each engagement.</p>
-            <a href="#quote" data-service-link="Healthcare cleaning">Request healthcare cleaning <span aria-hidden="true">→</span></a>
+            <a href="#quote" data-service-link="Healthcare cleaning">Get a quote <span aria-hidden="true">→</span></a>
           </article>
 
           <article class="service-card">
@@ -177,7 +177,7 @@
             </div>
             <h3>Commercial cleaning</h3>
             <p>Practical cleaning plans for customer-facing and operational spaces, from one-off jobs to recurring support.</p>
-            <a href="#quote" data-service-link="Commercial cleaning">Request commercial cleaning <span aria-hidden="true">→</span></a>
+            <a href="#quote" data-service-link="Commercial cleaning">Get a quote <span aria-hidden="true">→</span></a>
           </article>
         </div>
       </div>
@@ -267,8 +267,8 @@
           <p>Send the essentials on WhatsApp and Kleenova can follow up with the right questions. This form does not store your information on this website.</p>
           <div class="contact-card">
             <p class="contact-kicker">Prefer to talk?</p>
-            <a href="tel:+254715594510">0715 594 510</a>
             <a href="tel:+254717826866">0717 826 866</a>
+            <a href="tel:+254715594510">0715 594 510</a>
             <a href="mailto:kleenova.cleaning@gmail.com">kleenova.cleaning@gmail.com</a>
           </div>
         </div>
@@ -282,6 +282,7 @@
               <label><span>Phone number</span><input type="tel" name="phone" autocomplete="tel" maxlength="30" required></label>
             </div>
           </fieldset>
+
           <fieldset class="form-group">
             <legend>The job</legend>
             <p class="form-group-help">Tell us what and where you need cleaned.</p>
@@ -289,19 +290,22 @@
               <label><span>Cleaning service</span><select name="service" required data-service-select><option value="">Choose a service</option><option>Residential cleaning</option><option>Office cleaning</option><option>Healthcare cleaning</option><option>Commercial cleaning</option><option>Not sure / other</option></select></label>
               <label><span>Area / neighbourhood</span><input type="text" name="location" autocomplete="address-level2" maxlength="100" placeholder="e.g. Kilimani" required></label>
             </div>
-            <label><span>What would you like us to know?</span><textarea name="notes" rows="5" maxlength="800" placeholder="Size of the space, frequency, priority areas, access notes or anything else that helps us quote accurately."></textarea></label>
           </fieldset>
-          <fieldset class="form-group">
-            <legend>Timing</legend>
-            <p class="form-group-help">Share a preference, or leave it flexible.</p>
-            <div class="form-grid">
-              <label><span>Preferred date</span><input type="date" name="date"></label>
-              <label><span>Preferred timing</span><select name="timing"><option value="">Flexible</option><option>Morning</option><option>Afternoon</option><option>Evening / after hours</option></select></label>
+
+          <details class="optional-details">
+            <summary>Add optional details</summary>
+            <div class="optional-details-body">
+              <label><span>What would you like us to know?</span><textarea name="notes" rows="4" maxlength="800" placeholder="Size of the space, frequency, priority areas, access notes or anything else that helps us quote accurately."></textarea></label>
+              <div class="form-grid">
+                <label><span>Preferred date</span><input type="date" name="date"></label>
+                <label><span>Preferred timing</span><select name="timing"><option value="">Flexible</option><option>Morning</option><option>Afternoon</option><option>Evening / after hours</option></select></label>
+              </div>
             </div>
-          </fieldset>
-          <label class="consent"><input type="checkbox" name="consent" required><span>I’m happy for this information to be placed into a WhatsApp message to Kleenova when I press the button below.</span></label>
+          </details>
+
+          <p class="form-consent-note">When you continue, WhatsApp will open with the details above. You can review or edit the message before sending it to Kleenova.</p>
           <button class="button button-gold" type="submit">Send quote request on WhatsApp</button>
-          <p class="form-note">You’ll review the message in WhatsApp before sending it. Nothing is submitted to Kleenova automatically.</p>
+          <p class="form-note">Nothing is submitted to Kleenova automatically from this website.</p>
         </form>
       </div>
     </section>
@@ -372,8 +376,8 @@
       </div>
       <div>
         <h2>Contact</h2>
-        <a href="tel:+254715594510">0715 594 510</a>
         <a href="tel:+254717826866">0717 826 866</a>
+        <a href="tel:+254715594510">0715 594 510</a>
         <a href="mailto:kleenova.cleaning@gmail.com">Email Kleenova</a>
         <a href="https://wa.me/254717826866" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </div>
@@ -381,7 +385,6 @@
         <h2>Website</h2>
         <a href="#faq">FAQ</a>
         <a href="privacy.html">Privacy</a>
-        <a href="https://github.com/dansamuka/Kleenova" target="_blank" rel="noopener noreferrer">Source</a>
       </div>
     </div>
     <div class="container footer-bottom">

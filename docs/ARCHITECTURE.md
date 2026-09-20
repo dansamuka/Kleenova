@@ -31,7 +31,7 @@ A framework would add operational and supply-chain complexity without improving 
 4. **Integration layer:** standards-based external links (tel, mailto, WhatsApp).
 5. **Delivery layer:** GitHub Actions → GitHub Pages.
 
-The quote form does not post to a backend. It creates a WhatsApp message client-side, which means no form database, API key or spam endpoint is exposed.
+The quote form does not post to a backend. It creates a WhatsApp message client-side, which means no form database, API key or spam endpoint is exposed. Required lead fields stay visible while notes and timing use progressive disclosure to keep the mobile form compact.
 
 ## 3. Security model
 
