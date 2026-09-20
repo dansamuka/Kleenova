@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 175" role="img" aria-labelledby="title desc">
+<title id="title">Kleenova Cleaning Services</title>
+<desc id="desc">Kleenova wordmark with a roof line, leaf and gold sparkle.</desc>
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0" stop-color="#004f54"/>
+    <stop offset="1" stop-color="#08757a"/>
+  </linearGradient>
+</defs>
+<path d="M72 60 L202 13 L304 53" fill="none" stroke="#08757a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M423 28c26-10 46-1 52 18-24 7-43 1-52-18z" fill="#08757a"/>
+<path d="M426 28c12 3 25 10 35 19" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<path d="M495 11l5 11 11 5-11 5-5 11-5-11-11-5 11-5 5-11z" fill="#d6ad3f"/>
+<text x="18" y="112" font-family="Arial, Helvetica, sans-serif" font-size="79" font-weight="800" letter-spacing="-4" fill="url(#g)">Kleenova</text>
+<path d="M22 131h166M371 131h166" stroke="#d6ad3f" stroke-width="3" stroke-linecap="round"/>
+<text x="202" y="139" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="7" fill="#174b4e">CLEANING SERVICES</text>
+<text x="113" y="166" font-family="Arial, Helvetica, sans-serif" font-size="18" font-style="italic" fill="#08757a">Clean Spaces. Healthier Lives.</text>
+</svg>

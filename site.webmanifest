@@ -1,0 +1,17 @@
+{
+  "name": "Kleenova Cleaning Services",
+  "short_name": "Kleenova",
+  "description": "Professional cleaning services in Nairobi and surrounding areas.",
+  "start_url": "/Kleenova/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#005d62",
+  "icons": [
+    {
+      "src": "/Kleenova/assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

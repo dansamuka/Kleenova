@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" role="img" aria-labelledby="title desc">
+<title id="title">Professional cleaning equipment in a bright modern interior</title>
+<desc id="desc">A premium vector illustration with teal cleaning equipment, a bright interior, greenery and gold accents.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f8fdfc"/>
+    <stop offset="0.56" stop-color="#e8f5f2"/>
+    <stop offset="1" stop-color="#cfe9e4"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity=".9"/>
+    <stop offset="1" stop-color="#c8e8e5" stop-opacity=".45"/>
+  </linearGradient>
+  <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#08757a"/>
+    <stop offset="1" stop-color="#003f43"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#e7c45a"/>
+    <stop offset="1" stop-color="#b88e26"/>
+  </linearGradient>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+    <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#003f43" flood-opacity=".17"/>
+  </filter>
+</defs>
+<rect width="1000" height="720" fill="url(#bg)"/>
+<circle cx="840" cy="110" r="175" fill="#fff" opacity=".55"/>
+<circle cx="760" cy="400" r="300" fill="#fff" opacity=".32"/>
+<!-- windows -->
+<g opacity=".86">
+  <rect x="485" y="62" width="438" height="340" rx="20" fill="url(#glass)" stroke="#b7d8d3"/>
+  <path d="M630 62v340M776 62v340M485 230h438" stroke="#b7d8d3" stroke-width="5"/>
+  <path d="M505 80h398" stroke="#fff" stroke-width="12" opacity=".65"/>
+</g>
+<!-- plant -->
+<g transform="translate(790 245)">
+  <rect x="64" y="245" width="92" height="118" rx="18" fill="#d6ad3f" opacity=".85"/>
+  <path d="M107 255c-6-74-18-132-22-180M110 254c25-82 41-129 72-177M104 255c-47-77-69-108-96-137M110 248c43-44 74-67 105-78" fill="none" stroke="#316c55" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="69" cy="99" rx="32" ry="65" transform="rotate(-27 69 99)" fill="#4e8b66"/>
+  <ellipse cx="160" cy="100" rx="31" ry="68" transform="rotate(28 160 100)" fill="#3f7b5b"/>
+  <ellipse cx="41" cy="155" rx="27" ry="58" transform="rotate(-56 41 155)" fill="#5b9670"/>
+  <ellipse cx="180" cy="171" rx="26" ry="58" transform="rotate(58 180 171)" fill="#4b8964"/>
+</g>
+<!-- floor -->
+<path d="M0 521C250 477 572 488 1000 451v269H0z" fill="#f7f7f2"/>
+<path d="M0 613c272-42 646-35 1000-77" fill="none" stroke="#e2dfd4" stroke-width="3"/>
+<!-- equipment cluster -->
+<g filter="url(#shadow)" transform="translate(490 305)">
+  <!-- bucket -->
+  <path d="M118 204h265l-28 208c-3 26-25 46-52 46H196c-27 0-49-20-52-46z" fill="url(#teal)"/>
+  <path d="M100 194c0-19 15-34 34-34h233c19 0 34 15 34 34v28H100z" fill="#00656a"/>
+  <path d="M159 166c25-92 166-104 203 0" fill="none" stroke="#0b3436" stroke-width="16" stroke-linecap="round"/>
+  <path d="M139 246h224" stroke="#23959a" stroke-width="8" opacity=".8"/>
+  <!-- towel -->
+  <path d="M77 79h127c13 0 23 10 23 23v189c0 15-12 27-27 27H93c-15 0-27-12-27-27V90c0-6 5-11 11-11z" fill="#36a4a2"/>
+  <path d="M91 97h101v189H91z" fill="#5db8b5" opacity=".65"/>
+  <!-- spray bottle -->
+  <g transform="translate(241 -2)">
+    <path d="M50 111h87l19 47v148c0 17-14 31-31 31H62c-17 0-31-14-31-31V158z" fill="#e9f6f4" stroke="#acd9d4" stroke-width="5"/>
+    <rect x="62" y="68" width="55" height="57" rx="10" fill="#08757a"/>
+    <path d="M72 65V39h72l44 24-15 23-45-10h-11" fill="#004f54"/>
+    <path d="M159 61h50" stroke="#004f54" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <!-- second spray bottle -->
+  <g transform="translate(332 36) scale(.76)">
+    <path d="M50 111h87l19 47v148c0 17-14 31-31 31H62c-17 0-31-14-31-31V158z" fill="#c9ebe7" stroke="#8ac8c2" stroke-width="5"/>
+    <rect x="62" y="68" width="55" height="57" rx="10" fill="#0c8b90"/>
+    <path d="M72 65V39h72l44 24-15 23-45-10h-11" fill="#005d62"/>
+    <path d="M159 61h50" stroke="#005d62" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <!-- brush -->
+  <g transform="translate(420 52) rotate(16)">
+    <rect x="16" y="0" width="22" height="212" rx="11" fill="url(#gold)"/>
+    <rect x="-2" y="190" width="61" height="116" rx="29" fill="#0b3436"/>
+    <g stroke="#153f41" stroke-width="7" stroke-linecap="round">
+      <path d="M4 225l-20 32M17 222l-12 44M32 222l0 47M45 224l11 42M55 231l20 31"/>
+    </g>
+  </g>
+  <!-- mop -->
+  <g transform="translate(-48 332)">
+    <rect x="0" y="0" width="388" height="24" rx="12" fill="#005d62"/>
+    <path d="M17 24h354l41 79H-24z" fill="#39a8a4"/>
+    <path d="M6 41l-24 43M46 38l-16 52M88 36L76 94M134 35l-7 63M180 34v66M226 35l7 63M272 36l12 58M316 38l17 52M355 41l24 43" stroke="#79cac6" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</g>
+<!-- sparkle accents -->
+<g fill="url(#gold)">
+  <path d="M763 84l10 24 24 10-24 10-10 24-10-24-24-10 24-10z"/>
+  <path d="M879 181l7 17 17 7-17 7-7 17-7-17-17-7 17-7z"/>
+  <path d="M690 210l6 14 14 6-14 6-6 14-6-14-14-6 14-6z"/>
+</g>
+</svg>
