@@ -1,6 +1,9 @@
 name: Bootstrap Kleenova site
 
 on:
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/bootstrap.yml"]
   workflow_dispatch:
 
 permissions:
