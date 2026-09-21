@@ -105,3 +105,8 @@ Migrate from hand-authored static pages to a generator/CMS when any of these bec
 - authenticated customer/staff workflows are required.
 
 At that point preserve the design tokens, content model and route contracts while replacing the rendering layer.
+
+
+## Hero image delivery
+
+The homepage uses a responsive AI-generated hero approved for Kleenova. A 1600×900 WebP is served to desktop/tablet and a purpose-cropped 900×1200 WebP is served below 760px via `<picture>`. Both are local repository assets, so the hero adds no third-party runtime dependency. The CSS wash is intentionally lighter on desktop to preserve the photographic quality and stronger on mobile to protect text contrast.

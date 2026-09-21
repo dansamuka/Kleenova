@@ -16,3 +16,6 @@ This avoids a common quality issue in AI web assets: unreliable embedded typogra
 ## Replacement policy
 
 When high-quality real photography is available, retain this file naming/size strategy but replace the synthetic hero with an approved real image. Keep the original source image outside the published site if it contains metadata or customer-identifying details.
+
+| `assets/images/kleenova-hero-premium.webp` | AI-generated final Kleenova hero image; optimized from the approved 1672×941 source | 1600×900 WebP | Desktop/tablet homepage hero and social preview |
+| `assets/images/kleenova-hero-mobile.webp` | Responsive crop from the approved Kleenova hero image | 900×1200 WebP | Mobile homepage hero |
